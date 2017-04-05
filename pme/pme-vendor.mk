@@ -73,11 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/etc/cne/wqeclient/VZW/VZW_profile4.xml \
     vendor/htc/pme/proprietary/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/etc/cne/wqeclient/VZW/VZW_profile5.xml \
     vendor/htc/pme/proprietary/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/etc/cne/wqeclient/VZW/VZW_profile6.xml \
-    vendor/htc/pme/proprietary/etc/cne/wqeclient/profile1.xml:system/etc/cne/wqeclient/profile1.xml \
-    vendor/htc/pme/proprietary/etc/cne/wqeclient/profile2.xml:system/etc/cne/wqeclient/profile2.xml \
-    vendor/htc/pme/proprietary/etc/cne/wqeclient/profile3.xml:system/etc/cne/wqeclient/profile3.xml \
-    vendor/htc/pme/proprietary/etc/cne/wqeclient/profile4.xml:system/etc/cne/wqeclient/profile4.xml \
-    vendor/htc/pme/proprietary/etc/cne/wqeclient/profile5.xml:system/etc/cne/wqeclient/profile5.xml \
     vendor/htc/pme/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/htc/pme/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/htc/pme/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
@@ -267,6 +262,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/htc/pme/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/htc/pme/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/htc/pme/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar \
     vendor/htc/pme/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/htc/pme/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
     vendor/htc/pme/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
@@ -937,5 +933,4 @@ PRODUCT_PACKAGES += \
     TimeService \
     CNEService \
     QtiTetherService \
-    com.qualcomm.location \
-    dpmserviceapp
+    com.qualcomm.location
