@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/htc/pme/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/htc/pme/proprietary/bin/tftp_server:system/bin/tftp_server \
-    vendor/htc/pme/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/htc/pme/proprietary/customize/MNSprop/310160.prop:system/customize/MNSprop/310160.prop \
     vendor/htc/pme/proprietary/customize/MNSprop/311180.prop:system/customize/MNSprop/311180.prop \
     vendor/htc/pme/proprietary/customize/MNSprop/default.prop:system/customize/MNSprop/default.prop \
@@ -288,6 +287,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/htc/pme/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/htc/pme/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/htc/pme/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/htc/pme/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:system/vendor/etc/init/vendor.display.color@1.0-service.rc \
     vendor/htc/pme/proprietary/vendor/firmware/libpn548_fw.so:system/vendor/firmware/libpn548_fw.so \
     vendor/htc/pme/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
@@ -969,7 +969,7 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libthermalclient \
     libtime_genoff \
-    TimeService \
     CNEService \
     QtiTetherService \
-    com.qualcomm.location
+    com.qualcomm.location \
+    TimeService
