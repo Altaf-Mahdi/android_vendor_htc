@@ -27,8 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/htc/pme/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/htc/pme/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/htc/pme/proprietary/bin/pm-proxy:system/bin/pm-proxy \
-    vendor/htc/pme/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/htc/pme/proprietary/bin/radish:system/bin/radish \
     vendor/htc/pme/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/htc/pme/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
@@ -249,6 +247,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/htc/pme/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/htc/pme/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/htc/pme/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
+    vendor/htc/pme/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
     vendor/htc/pme/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/htc/pme/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/htc/pme/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
