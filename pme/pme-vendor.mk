@@ -243,6 +243,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:system/vendor/bin/hw/vendor.display.color@1.0-service \
     vendor/htc/pme/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
     vendor/htc/pme/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
+    vendor/htc/pme/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
     vendor/htc/pme/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/htc/pme/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/htc/pme/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
